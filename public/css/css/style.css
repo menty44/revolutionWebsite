@@ -1,0 +1,326 @@
+@charset "UTF-8";
+/*==============================
+    Font
+==============================*/
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+/*==============================
+    Reset
+==============================*/
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+/*==============================
+    Layout
+==============================*/
+html, body {
+  font-size: 10px;
+  width: 100%;
+  height: 100%; }
+
+body {
+  color: #333;
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 1.6em;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); }
+
+h1 {
+  font-size: 3rem; }
+
+h2 {
+  font-size: 2.6rem; }
+
+h3 {
+  font-size: 2.4rem; }
+
+a {
+  color: #39c; }
+  a:hover {
+    color: #85c2e0; }
+
+small {
+  font-size: 1.2rem; }
+
+dt {
+  font-weight: bold; }
+
+img {
+  display: block;
+  width: 100%; }
+
+.contact-list {
+  font-size: 3.6rem;
+  margin-top: 2rem;
+  list-style: none; }
+  .contact-list .list-item {
+    display: inline-block;
+    margin: 0 1rem; }
+    .contact-list .list-item a {
+      display: block;
+      color: #333; }
+      .contact-list .list-item a:hover {
+        color: #666666; }
+
+/*    Headline-Underbar    */
+[class*="headline-underbar"]:after {
+  display: block;
+  content: '';
+  background-color: gray;
+  margin: 0 auto 0 auto;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(51, 51, 51, 0.2); }
+
+.headline-underbar-large:after {
+  width: 30%;
+  min-width: 280px;
+  height: 10px;
+  margin-top: 25px; }
+
+.headline-underbar-small:after {
+  width: 10%;
+  min-width: 160px;
+  height: 6px;
+  margin-top: 16px; }
+
+.box-center {
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+/*    Button    */
+.button a {
+  display: block;
+  border-radius: 4px; }
+
+.button-dl {
+  font-size: 2rem;
+  display: inline-block;
+  border: 3px solid #333;
+  border-radius: 8px;
+  margin-top: 40px;
+  transition: all 0.3s ease 0s;
+  text-shadow: none;
+  font-family: 'Montserrat', sans-serif; }
+  .button-dl a {
+    color: #333;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s; }
+  .button-dl:hover {
+    border-color: gray; }
+    .button-dl:hover a {
+      color: #fff;
+      background-color: gray; }
+
+.codeview {
+  color: #fff;
+  background-color: rgba(51, 51, 51, 0.9);
+  padding: 10px;
+  margin-top: 40px;
+  border-radius: 10px;
+  text-align: left;
+  text-shadow: none; }
+  .codeview .filename {
+    border-bottom: 1px solid #666;
+    margin-bottom: 1em; }
+  .codeview pre {
+    overflow: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word; }
+
+/*    Common    */
+.site-section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box; }
+
+.site-inner {
+  width: 100%;
+  max-width: 700px;
+  padding: 20px;
+  margin: 0 auto; }
+
+.site-title,
+.site-headline {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; }
+
+.site-headline {
+  font-size: 3.6rem;
+  height: 5rem;
+  margin-bottom: 3rem; }
+
+/*    Site-Header    */
+.site-header {
+  background-color: lightblue; }
+
+.site-desc {
+  line-height: 4rem;
+  margin-top: 60px; }
+
+.site-title {
+  font-size: 4.2rem;
+  width: 100%;
+  height: 1em;
+  text-shadow: 0 0 5px rgba(51, 51, 51, 0.2); }
+
+/*    Site-Main    */
+.site-main {
+  width: 100%; }
+
+/*    Pattern    */
+#pattern {
+  background-image: url(../img/pattern_japan.jpg);
+  background-color: tomato; }
+  #pattern .site-inner {
+    background-color: rgba(255, 255, 255, 0.8); }
+
+/*    Repeat    */
+#unpattern {
+  background-color: lightblue;
+  background-position: 800px 200px, 600px 50px, 200px 400px, 100px 120px;
+  /* 初期ポジション */ }
+
+#option {
+  background-color: #eee; }
+  #option .option-name {
+    font-size: 3rem; }
+    #option .option-name:not(:first-child) {
+      margin-top: 40px; }
+  #option .option-desc {
+    margin-top: 20px; }
+
+.site-footer .copyright {
+  color: #fff;
+  background-color: #333;
+  font-weight: normal;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  text-shadow: none; }
+
+/*# sourceMappingURL=maps/style.css.map */
