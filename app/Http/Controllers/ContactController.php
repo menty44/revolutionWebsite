@@ -29,7 +29,7 @@ class ContactController extends Controller
      */
     public function index()
     {
-        return view('moderator.unrated');
+        return view('contact.index');
     }
 
 
