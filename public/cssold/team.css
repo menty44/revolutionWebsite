@@ -46,7 +46,7 @@
 .ch-info .ch-info-back1 {
 	opacity: 0;
 
-	background:url(../images/team1.jpg) no-repeat;
+	background:url(../imagesold/team1.jpg) no-repeat;
 	background-position:center;
 	pointer-events: none;
 	
@@ -65,7 +65,7 @@
 .ch-info .ch-info-back2 {
 	opacity: 0;
 
-	background:url(../images/team2.jpg) no-repeat;
+	background:url(../imagesold/team2.jpg) no-repeat;
 	background-position:center;
 	pointer-events: none;
 	
@@ -84,7 +84,7 @@
 .ch-info .ch-info-back3 {
 	opacity: 0;
 
-	background:url(../images/team3.jpg) no-repeat;
+	background:url(../imagesold/team3.jpg) no-repeat;
 	background-position:center;
 	pointer-events: none;
 	
@@ -104,7 +104,7 @@
 .ch-info .ch-info-back4 {
 	opacity: 0;
 
-	background:url(../images/team4.jpg) no-repeat;
+	background:url(../imagesold/team4.jpg) no-repeat;
 	background-position:center;
 	pointer-events: none;
 	
@@ -122,18 +122,18 @@
 }
 
 .ch-img-1 { 
-	background-image: url(../images/team1.jpg);
+	background-image: url(../imagesold/team1.jpg);
 }
 
 .ch-img-2 { 
-	background-image: url(../images/team2.jpg);
+	background-image: url(../imagesold/team2.jpg);
 }
 
 .ch-img-3 { 
-	background-image: url(../images/team3.jpg);
+	background-image: url(../imagesold/team3.jpg);
 }
 .ch-img-4 { 
-	background-image: url(../images/team4.jpg);
+	background-image: url(../imagesold/team4.jpg);
 }
 
 .ch-item:hover .ch-info-front {

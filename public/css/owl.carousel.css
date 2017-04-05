@@ -6,9 +6,17 @@
         margin: 3px;
     }
     #owl-demo .item img{
-        display: block;
         height: auto;
+    margin: 0 auto;
+	    text-align: center;
+    margin: 0 auto;
+   
     }
+
+.owl-theme .owl-controls {
+    margin: 3em 1em 0 0;
+    text-align: right;
+}
 
 /* Styling Next and Prev buttons */
 
@@ -17,21 +25,22 @@
 	display: inline-block;
 	zoom: 1;
 	margin: 5px;
+	padding: 3px 10px;
 	font-size: 12px;
-	width:35px;
-	height:35px;
+    width: 42px;
+    height: 52px;
 }
 .owl-next{
-	background: url(../images/right-arrow.png) no-repeat 0px 0px;
+	/*-- background: url(../images/arrows.png) no-repeat -0px 0px; --*/
 	position: absolute;
-	right: 0%;
-	top:57%;
+	left: -3%;
+    top: 21%;
 }
 .owl-prev{
-	background: url(../images/left-arrow.png) no-repeat 0px 0px;
+	/*-- background: url(../images/arrows.png) no-repeat -35px 0px; --*/
 	position: absolute;
-	left: -2%;
-	top:57%;
+	right: -3%;
+    top: 21%;
 }
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
@@ -44,62 +53,27 @@
 /* Styling Pagination*/
 
 .owl-theme .owl-controls .owl-page{
-	display:block;
+	display: inline-block;
 	zoom: 1;
 	*display: inline;/*IE7 life-saver */
 }
 .owl-theme .owl-controls .owl-page span{
 	display: block;
-	width: 13px;
-	height: 13px;
-	margin: 5px 0px;
+	    width: 16px;
+    height: 16px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	background:#191919;
+	background:#2ad2c9;
 }
-.owl-pagination {
-	position: absolute;
-	right: 20%;
-	top: 41px;
-}
-.owl-carousel2 div.owl-pagination {
-    position: absolute;
-    right: 94%;
-    top: 147px;
-    z-index: 999;
-}
-.owl-carousel2 div.owl-controls .owl-page {
-	display:block;
-	zoom: 1;
-	padding:0.1em 0;
-}
-.owl-carousel2 div.owl-controls .owl-page.active span, .owl-carousel2 div.owl-controls.clickable .owl-page:hover span{
-	  
-    background: #00a78e;
-}
-.owl-carousel1 .owl-controls .owl-page span{
-	background:#1b242f;
-}
-.owl-carousel1 div.owl-pagination {
-	position: absolute;
-	right: 48%;
-	top: 130px;
-}
-.owl-carousel1 .owl-controls .owl-page span{
-	background:#b3b3b3;
-}
-.owl-carousel1 div.owl-controls .owl-page {
-	display:inline-block;
-	zoom: 1;
-	padding:0 0.2em;
-}
-.owl-carousel1 div.owl-controls .owl-page.active span, .owl-carousel1 div.owl-controls.clickable .owl-page:hover span{
-	background:#2ec06c;
-}
+
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
-	background: #FFF;
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
 }
 
 /* If PaginationNumbers is true */
@@ -138,7 +112,10 @@
 .owl-carousel{
 	display: none;
 	position: relative;
+	    width: 100%;
 	-ms-touch-action: pan-y;
+	margin:0em auto;
+	text-align:center;
 }
 .owl-carousel .owl-wrapper{
 	display: none;
@@ -352,128 +329,67 @@
 }
 /*----responsive-mediaquries-----*/
 @media (max-width:1024px){
-	.owl-carousel2 div.owl-pagination {
-		position: absolute;
-		right: 91%;
-		top: 147px;
-		z-index: 999;
-	}
-}
-@media (max-width:1024px){
-	#owl-demo .item img {
-		width: 90%;
-	}
-}
-@media (max-width:991px){
-	.owl-carousel2 div.owl-pagination {
-		position: absolute;
-		right: 93%;
-		top: 80px;
-		z-index: 999;
-	}
-}
-@media (max-width:800px){
-	.owl-carousel2 div.owl-pagination {
-		position: absolute;
-		right: 93%;
-		top: 80px;
-		z-index: 999;
+	.owl-theme .owl-controls {
+		margin: 4em 0 0 2em;
+		text-align: center;
 	}
 }
 @media (max-width:768px){
 	.owl-carousel {
-		width: 78%;
+		width: 80%;
 	}
-	.owl-pagination {
-		right: -15%;
-		top: 26px;
-	}
-	#owl-demo2 {
-		padding: 3em 0 0 0;
-		margin: 0 auto;
-	}
-	div#owl-demo3 {
-		margin: 0 auto;
-	}
-	.owl-carousel1 div.owl-pagination {
-		top: 152px;
-		right: 45%;
-	}
-	.owl-carousel2 div.owl-pagination {
-		position: absolute;
-		right: 89%;
-		top: 140px;
-		z-index: 999;
-	}
+	.owl-theme .owl-controls {
+    margin: 1em 0 0 2em;
+    text-align: center;
+}
 }
 @media (max-width:640px){
 	.owl-carousel {
-		width: 78%;
-	}
-	.owl-pagination {
-		right: -15%;
-		top: 26px;
-	}
-	#owl-demo2 {
-		padding: 3em 0 0 0;
-		margin: 0 auto;
-	}
-	div#owl-demo3 {
-		margin: 0 auto;
-		width: 100%;
-	}
-	.owl-carousel1 div.owl-pagination {
-		top: 152px;
-		right: 45%;
-	}
-	.owl-carousel2 div.owl-pagination {
-		right: -9%;
-		top: 84px;
+		width: 80%;
 	}
 }
 @media (max-width:480px){
 	.owl-carousel {
-		width: 78%;
+		width: 90%;
 	}
-	.owl-pagination {
-		right: -15%;
-		top: 26px;
+	.owl-theme .owl-controls .owl-page span {
+		display: block;
+		width:12px;
+		height:12px;
 	}
-	#owl-demo2 {
-		padding: 3em 0 0 0;
-		margin: 0 auto;
+	.owl-theme .owl-controls {
+      margin:0em 0 0 0em;
 	}
-	div#owl-demo3 {
-		margin: 0 auto;
-		width: 100%;
+}
+@media (max-width:414px){
+	.owl-theme .owl-controls .owl-buttons div {
+		color: #FFF;
+		display: inline-block;
+		zoom: 1;
+		margin: 5px;
+		padding: 3px 10px;
+		font-size: 12px;
+		width: 41px;
+		height: 33px;
+		background-size: 100%;
 	}
-	.owl-carousel1 div.owl-pagination {
-		top: 152px;
-		right: 45%;
+	.owl-next {
+      background: url(../images/arrows.png) no-repeat 17px 0px;
 	}
-	.owl-carousel2 div.owl-pagination {
-		right: -19%;
-		top: 128px;
+	.owl-prev {
+      background: url(../images/arrows.png) no-repeat -18px 0px;
+	}
+	.owl-theme .owl-controls {
+		margin: 0em 0 0 0em;
 	}
 }
 @media (max-width:320px){
 	.owl-carousel {
-		width: 78%;
-	}
-	.owl-pagination {
-		right: -3%;
-		top: 0px;
-	}
-	#owl-demo2 {
-		padding: 3em 0 0 0;
-		margin: 0 auto;
-	}
-	div#owl-demo3 {
-		margin: 0 auto;
 		width: 100%;
 	}
-	.owl-carousel2 div.owl-pagination {
-		right: -17%;
-		top: 124px;
+	.owl-theme .owl-controls .owl-page span {
+		width: 12px;
+		height: 12px;
+		margin: 5px 5px;
 	}
 }

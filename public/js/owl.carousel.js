@@ -1407,7 +1407,7 @@ if ( typeof Object.create !== "function" ) {
 
 	$.fn.owlCarousel.options = {
 
-		items : 1,
+		items :1,
 		itemsCustom : false,
 		itemsDesktop : [1199,1],
 		itemsDesktopSmall : [979,1],
