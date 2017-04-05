@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\DB;
 USE Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Auth;
 use Datatables;
-use App\Film;
+use App\Services;
 
 class ServiceController extends Controller
 {
