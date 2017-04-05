@@ -76,18 +76,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                 <nav class="menu menu--iris">
                     <ul class="nav navbar-nav menu__list">
-                        <li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
-                        <li class="menu__item"><a href="about.html" class="menu__link">About</a></li>
-                        <li class="menu__item"><a href="portfolio.html" class="menu__link">Portfolio</a></li>
-                        <li class="menu__item menu__item--current"><a href="services.html" class="menu__link">Services</a></li>
-                        <li class="dropdown menu__item">
-                            <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Short Codes <b class="caret"></b></a>
-                            <ul class="dropdown-menu agile_short_dropdown">
-                                <li><a href="icons.html">Icons</a></li>
-                                <li><a href="typography.html">Typography</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu__item"><a href="contact.html" class="menu__link">Contact</a></li>
+                        <li class="menu__item menu__item--current"><a href="{{url('/')}}" class="menu__link">Home</a></li>
+                        <li class="menu__item"><a href="{{url('about')}}" class="menu__link">About</a></li>
+                        <li class="menu__item"><a href="{{url('portfolio')}}" class="menu__link">Portfolio</a></li>
+                        <li class="menu__item"><a href="{{url('services')}}" class="menu__link">Services</a></li>
+                        {{--<li class="dropdown menu__item">--}}
+                        {{--<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Short Codes <b class="caret"></b></a>--}}
+                        {{--<ul class="dropdown-menu agile_short_dropdown">--}}
+                        {{--<li><a href="icons.html">Icons</a></li>--}}
+                        {{--<li><a href="typography.html">Typography</a></li>--}}
+                        {{--</ul>--}}
+                        {{--</li>--}}
+                        <li class="menu__item"><a href="{{url('contact')}}" class="menu__link">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -273,7 +273,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="col-md-3 footer-agileits-w3layouts">
                 <h3>Our Links</h3>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="{{url('/')}}">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a href="contact.html">Contact</a></li>

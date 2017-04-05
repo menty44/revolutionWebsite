@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('contacts', 'ContactController@index');
-Route::get('services', 'ServicesController@index');
+Route::get('contact', 'ContactController@index');
+Route::get('services', 'ServiceController@index');
 Route::get('portfolio', 'PortfolioController@index');
 Route::get('about', 'AboutController@index');
