@@ -17,19 +17,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
         function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- //for-mobile-apps -->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="{{ asset('css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all" />
+    <link href="{{ asset('css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
     <!-- js -->
-    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="{{ asset('js/jquery-2.1.4.min.js')}}"></script>
     <!-- //js -->
     <!-- font-awesome icons -->
-    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="{{ asset('css/font-awesome.css')}}" rel="stylesheet" type="text/css" media="all" />
     <!-- //font-awesome icons -->
     <link href="//fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
     <!-- start-smoth-scrolling -->
-    <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="{{ asset('js/move-top.js')}}"></script>
+    <script type="text/javascript" src="{{ asset('js/easing.js')}}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function($) {
             $(".scroll").click(function(event){
@@ -118,7 +118,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
             </div>
             <div class="col-md-6 agileits_courses_right">
-                <img src="images/2.jpg" alt=" " class="img-responsive">
+                <img src="{{ asset('images/2.jpg'}}" alt=" " class="img-responsive">
             </div>
             <div class="clearfix"> </div>
         </div>
@@ -134,8 +134,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <!--screen-gallery-->
         <div class="sreen-gallery-cursual">
             <!-- required-js-files-->
-            <link href="css/owl.carousel.css" rel="stylesheet">
-            <script src="js/owl.carousel.js"></script>
+            <link href="{{ asset('css/owl.carousel.cs')}}" rel="stylesheet">
+            <script src="{{ asset('js/owl.carousel.js')}}"></script>
             <script>
                 $(document).ready(function() {
                     $("#owl-demo").owlCarousel({
@@ -154,7 +154,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="customer-say">
                         <div class="col-md-6 customer-grid">
                             <div class="de_testi">
-                                <div class="quotes"><img src="images/team1.jpg" alt=""></div>
+                                <div class="quotes"><img src="{{ asset('images/team1.jpg')}}" alt=""></div>
                                 <div class="de_testi_by">
                                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                                     <a href="#">Michael </a>, Customer
@@ -164,7 +164,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </div>
                         <div class="col-md-6 customer-grid">
                             <div class="de_testi">
-                                <div class="quotes"><img src="images/team2.jpg" alt=""></div>
+                                <div class="quotes"><img src="{{ asset('images/team2.jpg')}}" alt=""></div>
                                 <div class="de_testi_by">
                                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                                     <a href="#">John </a>, Customer
@@ -178,7 +178,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="customer-say">
                         <div class="col-md-6 customer-grid">
                             <div class="de_testi">
-                                <div class="quotes"><img src="images/team3.jpg" alt=""></div>
+                                <div class="quotes"><img src="{{ asset('images/team3.jpg')}}" alt=""></div>
                                 <div class="de_testi_by">
                                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                                     <a href="#">Michael </a>, Customer
@@ -188,7 +188,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </div>
                         <div class="col-md-6 customer-grid">
                             <div class="de_testi">
-                                <div class="quotes"><img src="images/team4.jpg" alt=""></div>
+                                <div class="quotes"><img src="{{ asset('images/team4.jpg')}}" alt=""></div>
                                 <div class="de_testi_by">
                                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                                     <a href="#">John </a>, Customer
@@ -202,7 +202,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="customer-say">
                         <div class="col-md-6 customer-grid">
                             <div class="de_testi">
-                                <div class="quotes"><img src="images/team4.jpg" alt=""></div>
+                                <div class="quotes"><img src="{{ asset('images/team4.jpg')}}" alt=""></div>
                                 <div class="de_testi_by">
                                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                                     <a href="#">Michael </a>, Customer
@@ -212,7 +212,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </div>
                         <div class="col-md-6 customer-grid">
                             <div class="de_testi">
-                                <div class="quotes"><img src="images/team1.jpg" alt=""></div>
+                                <div class="quotes"><img src="{{ asset('images/team1.jpg')}}" alt=""></div>
                                 <div class="de_testi_by">
                                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                                     <a href="#">John </a>, Customer
@@ -237,7 +237,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="col-md-3 w3ls_team_grid">
                 <div class="w3ls_team_grid1 hover15">
                     <figure>
-                        <img src="images/team3.jpg" alt=" " class="img-responsive" />
+                        <img src="{{ asset('images/team3.jpg'}}" alt=" " class="img-responsive" />
                     </figure>
                     <div class="w3ls_team_grid1_pos">
                         <ul class="social-icons">
@@ -253,7 +253,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="col-md-3 w3ls_team_grid">
                 <div class="w3ls_team_grid1 hover15">
                     <figure>
-                        <img src="images/team4.jpg" alt=" " class="img-responsive" />
+                        <img src="{{ asset('images/team4.jpg')}}" alt=" " class="img-responsive" />
                     </figure>
                     <div class="w3ls_team_grid1_pos">
                         <ul class="social-icons">
@@ -269,7 +269,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="col-md-3 w3ls_team_grid">
                 <div class="w3ls_team_grid1 hover15">
                     <figure>
-                        <img src="images/team2.jpg" alt=" " class="img-responsive" />
+                        <img src="{{ asset('images/team2.jpg')}}" alt=" " class="img-responsive" />
                     </figure>
                     <div class="w3ls_team_grid1_pos">
                         <ul class="social-icons">
@@ -285,7 +285,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="col-md-3 w3ls_team_grid">
                 <div class="w3ls_team_grid1 hover15">
                     <figure>
-                        <img src="images/team1.jpg" alt=" " class="img-responsive" />
+                        <img src="{{ asset('images/team1.jpg')}}" alt=" " class="img-responsive" />
                     </figure>
                     <div class="w3ls_team_grid1_pos">
                         <ul class="social-icons">
@@ -376,13 +376,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="clearfix"></div>
         </div>
         <div class="copy-right-agile">
-            <p>© 2017 Executive. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+            <p>All rights reserved &copy; <?php echo date('Y', strtotime('+8 HOURS'))?> | Design by <a href="http://blaqueyard.com/">blaqueyard.com</a></p>
         </div>
     </div>
 </div>
 <!-- //footer -->
 <!-- for bootstrap working -->
-<script src="js/bootstrap.js"></script>
+<script src="{{ asset('js/bootstrap.js')}}"></script>
 <!-- //for bootstrap working -->
 <!-- here stars scrolling icon -->
 <script type="text/javascript">

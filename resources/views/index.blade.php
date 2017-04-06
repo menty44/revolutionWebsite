@@ -79,7 +79,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                 <nav class="menu menu--iris">
                     <ul class="nav navbar-nav menu__list">
-                        <li class="menu__item menu__item--current"><a href="index.html" class="menu__link">Home</a></li>
+                        <li class="menu__item menu__item--current"><a href="{{url('/')}}" class="menu__link">Home</a></li>
                         <li class="menu__item"><a href="{{url('about')}}" class="menu__link">About</a></li>
                         <li class="menu__item"><a href="{{url('portfolio')}}" class="menu__link">Portfolio</a></li>
                         <li class="menu__item"><a href="{{url('services')}}" class="menu__link">Services</a></li>
