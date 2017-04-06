@@ -8,12 +8,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Executive a Corporate Business Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+    <title>REVOLUTION TECHNOLOGIES | HOME</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Executive Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <meta name="keywords" content="microsoft server, sharepoint, software development, active directory ,ad ,AD, westlands, Cloud Solutions – Microsoft Office 365, Microsoft Azure,
+Design & Architecture, Outsourced IT, Managed Services, Technology Assessments, Licensing, Network Security, monitoring and Management, security , networking,revolution, revolution technologies,
+revolutiontechnologies, revtech, rev tech" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
         function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- //for-mobile-apps -->
@@ -101,37 +102,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <ul class="slides">
                         <li>
                             <div class="wthree_banner_info_grid">
-                                <h4>Latin literature</h4>
-                                <h3>It has roots in a piece of classical Latin </h3>
-                                <h5>classical Latin</h5>
+                                <h4>WE DELIVER</h4>
+                                <h3>We always hit our target on time. </h3>
+                                {{--<h5>classical Latin</h5>--}}
                             </div>
                         </li>
                         <li>
                             <div class="wthree_banner_info_grid">
-                                <h4>simply random</h4>
-                                <h3>Lorem Ipsum is not simply random text.</h3>
-                                <h5>classical Latin</h5>
+                                <h4>TOP NOTCH SOLUTIONS</h4>
+                                <h3>We offer the best solutions in the for your needs.</h3>
+                                {{--<h5>classical Latin</h5>--}}
                             </div>
                         </li>
                         <li>
                             <div class="wthree_banner_info_grid">
-                                <h4>Latin literature</h4>
-                                <h3>It has roots in a piece of classical Latin</h3>
-                                <h5>classical Latin</h5>
+                                <h4>CLOUD COMPUTING</h4>
+                                <h3>We take care of your needs in Microsoft azure Cloud.</h3>
+                                {{--<h5>classical Latin</h5>--}}
                             </div>
                         </li>
                         <li>
                             <div class="wthree_banner_info_grid">
-                                <h4>simply random</h4>
-                                <h3>Lorem Ipsum is not simply random text.</h3>
-                                <h5>classical Latin</h5>
+                                <h4>INNOVATORS</h4>
+                                <h3>We are game changers, we are simply Unique.</h3>
+                                {{--<h5>classical Latin</h5>--}}
                             </div>
                         </li>
                         <li>
                             <div class="wthree_banner_info_grid">
-                                <h4>Latin literature</h4>
-                                <h3>It has roots in a piece of classical Latin</h3>
-                                <h5>classical Latin</h5>
+                                <h4>AGILE</h4>
+                                <h3>We engage our clients throught the n project's lifecycle.</h3>
+                                {{--<h5>classical Latin</h5>--}}
                             </div>
                         </li>
                     </ul>

@@ -8,12 +8,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Executive a Corporate Business Category Flat Bootstrap Responsive Website Template | About :: w3layouts</title>
+    <title>REVOLUTION TECHNOLOGIES | ABOUT</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Executive Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <meta name="keywords" content="microsoft server, sharepoint, software development, active directory ,ad ,AD, westlands, Cloud Solutions – Microsoft Office 365, Microsoft Azure,
+Design & Architecture, Outsourced IT, Managed Services, Technology Assessments, Licensing, Network Security, monitoring and Management, security , networking,revolution, revolution technologies,
+revolutiontechnologies, revtech, rev tech" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
         function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- //for-mobile-apps -->
@@ -100,25 +101,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="courses">
     <div class="container">
         <h2 class="w3ls_head">About Us</h2>
-        <p class="w3layouts_para">Fusce quis leo in augue ultricies tincidunt a quis mi. Donec at massa nec sem eleifend fermentum.</p>
+        <p class="w3layouts_para">Revolution technologies Limited is a technology firm that specializes in assisting companies
+            reduce ICT expenses through innovation. With offices in Nairobi, Kenya, we are designed to
+            provide clients with the right space and context to think and then execute far more coherent
+            solutions. We help both the large and medium sized enterprises cutting across Banking,
+            Insurance, Government, Non-Governmental Organizations, Manufacturing and Hospitality
+            industries.
+            </p>
         <div class="agileits_w3layouts_team_grids w3ls_courses_grids">
             <div class="col-md-6 w3ls_banner_bottom_left w3ls_courses_left">
                 <div class="w3ls_courses_left_grids">
                     <div class="w3ls_courses_left_grid">
-                        <h3><i class="fa fa-pencil-square-o" aria-hidden="true"></i>pulvinar neque pharetra eget</h3>
-                        <p>Pellentesque convallis diam consequat magna vulputate malesuada.
-                            Cras a ornare elit.Cras a ornare elit. Nulla viverra pharetra sem, eget pulvinar  Nulla viverra pharetra sem, eget pulvinar neque pharetra ac.</p>
+                        <h3><i class="fa fa-pencil-square-o" aria-hidden="true"></i>WE CARE FOR YOU</h3>
+                        <p>At Revolution technologies our number-one goal is to bring value to our enterprise clients.
+                            We value long term relationships and work diligently to demonstrate our capabilities. We
+                            are constantly searching for new ways to bring value while continuing to learn about the
+                            business issues and opportunities that can be addressed by private and public cloud
+                            computing.</p>
                     </div>
                     <div class="w3ls_courses_left_grid">
-                        <h3><i class="fa fa-pencil-square-o" aria-hidden="true"></i>consequat magna vulputate</h3>
-                        <p>Pellentesque convallis diam consequat magna vulputate malesuada.
-                            Cras a ornare elit.Cras a ornare elit. Nulla viverra pharetra sem, eget pulvinar  Nulla viverra pharetra sem, eget pulvinar neque pharetra ac.</p>
+                        <h3><i class="fa fa-pencil-square-o" aria-hidden="true"></i>OUR BELIEF</h3>
+                        <p>We believe that a client’s real journey to value begins on the day deployment is completed.
+                            We follow successful adoption with a clear methodology support plan that helps companies
+                            take advantage of the opportunities presented by market changes such as Business
+                            Intelligence, SaaS, PaaS, IaaS Mobility and Security on the BYOD to further improve
+                            mobile workforce, revenue and customer loyalty.</p>
                     </div>
 
                 </div>
             </div>
             <div class="col-md-6 agileits_courses_right">
-                <img src="{{ asset('images/2.jpg'}}" alt=" " class="img-responsive">
+                <img src="{{ asset('images/2.jpg')}}" alt=" " class="img-responsive">
             </div>
             <div class="clearfix"> </div>
         </div>
@@ -129,8 +142,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="client">
     <div class="container">
         <h3 class="w3ls_head">Client Says</h3>
-        <p class="w3l">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
-            corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+        <p class="w3l">Our Clients' Testimonials.</p>
         <!--screen-gallery-->
         <div class="sreen-gallery-cursual">
             <!-- required-js-files-->
@@ -156,8 +168,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <div class="de_testi">
                                 <div class="quotes"><img src="{{ asset('images/team1.jpg')}}" alt=""></div>
                                 <div class="de_testi_by">
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                                    <a href="#">Michael </a>, Customer
+                                    <p> Revolution Team offered me a solution in a professional way, i'd recommended anyone to work with them. </p>
+                                    <a href="#">Michael </a>, MD | SSP Africa, Customer
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
@@ -166,62 +178,62 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <div class="de_testi">
                                 <div class="quotes"><img src="{{ asset('images/team2.jpg')}}" alt=""></div>
                                 <div class="de_testi_by">
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                                    <a href="#">John </a>, Customer
+                                    <p> They deployed my solution on the cloud and I haven't gotten any issue since then.</p>
+                                    <a href="#">John </a>, CTO | Blaqueyard Kenya, Customer
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="item-owl">
-                    <div class="customer-say">
-                        <div class="col-md-6 customer-grid">
-                            <div class="de_testi">
-                                <div class="quotes"><img src="{{ asset('images/team3.jpg')}}" alt=""></div>
-                                <div class="de_testi_by">
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                                    <a href="#">Michael </a>, Customer
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 customer-grid">
-                            <div class="de_testi">
-                                <div class="quotes"><img src="{{ asset('images/team4.jpg')}}" alt=""></div>
-                                <div class="de_testi_by">
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                                    <a href="#">John </a>, Customer
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-owl">
-                    <div class="customer-say">
-                        <div class="col-md-6 customer-grid">
-                            <div class="de_testi">
-                                <div class="quotes"><img src="{{ asset('images/team4.jpg')}}" alt=""></div>
-                                <div class="de_testi_by">
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                                    <a href="#">Michael </a>, Customer
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 customer-grid">
-                            <div class="de_testi">
-                                <div class="quotes"><img src="{{ asset('images/team1.jpg')}}" alt=""></div>
-                                <div class="de_testi_by">
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                                    <a href="#">John </a>, Customer
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {{--<div class="item-owl">--}}
+                    {{--<div class="customer-say">--}}
+                        {{--<div class="col-md-6 customer-grid">--}}
+                            {{--<div class="de_testi">--}}
+                                {{--<div class="quotes"><img src="{{ asset('images/team3.jpg')}}" alt=""></div>--}}
+                                {{--<div class="de_testi_by">--}}
+                                    {{--<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>--}}
+                                    {{--<a href="#">Michael </a>, Customer--}}
+                                {{--</div>--}}
+                                {{--<div class="clearfix"></div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-md-6 customer-grid">--}}
+                            {{--<div class="de_testi">--}}
+                                {{--<div class="quotes"><img src="{{ asset('images/team4.jpg')}}" alt=""></div>--}}
+                                {{--<div class="de_testi_by">--}}
+                                    {{--<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>--}}
+                                    {{--<a href="#">John </a>, Customer--}}
+                                {{--</div>--}}
+                                {{--<div class="clearfix"></div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="item-owl">--}}
+                    {{--<div class="customer-say">--}}
+                        {{--<div class="col-md-6 customer-grid">--}}
+                            {{--<div class="de_testi">--}}
+                                {{--<div class="quotes"><img src="{{ asset('images/team4.jpg')}}" alt=""></div>--}}
+                                {{--<div class="de_testi_by">--}}
+                                    {{--<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>--}}
+                                    {{--<a href="#">Michael </a>, Customer--}}
+                                {{--</div>--}}
+                                {{--<div class="clearfix"></div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-md-6 customer-grid">--}}
+                            {{--<div class="de_testi">--}}
+                                {{--<div class="quotes"><img src="{{ asset('images/team1.jpg')}}" alt=""></div>--}}
+                                {{--<div class="de_testi_by">--}}
+                                    {{--<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>--}}
+                                    {{--<a href="#">John </a>, Customer--}}
+                                {{--</div>--}}
+                                {{--<div class="clearfix"></div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
             </div>
         </div>
         <!--//screen-gallery-->
@@ -237,7 +249,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="col-md-3 w3ls_team_grid">
                 <div class="w3ls_team_grid1 hover15">
                     <figure>
-                        <img src="{{ asset('images/team3.jpg'}}" alt=" " class="img-responsive" />
+                        <img src="{{ asset('images/team3.jpg')}}" alt=" " class="img-responsive" />
                     </figure>
                     <div class="w3ls_team_grid1_pos">
                         <ul class="social-icons">

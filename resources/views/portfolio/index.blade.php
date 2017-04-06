@@ -8,31 +8,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Executive a Corporate Business Category Flat Bootstrap Responsive Website Template | Portfolio :: w3layouts</title>
+    <title>REVOLUTION TECHNOLOGIES | PORTFOLIO</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Executive Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <meta name="keywords" content="microsoft server, sharepoint, software development, active directory ,ad ,AD, westlands, Cloud Solutions – Microsoft Office 365, Microsoft Azure,
+Design & Architecture, Outsourced IT, Managed Services, Technology Assessments, Licensing, Network Security, monitoring and Management, security , networking,revolution, revolution technologies,
+revolutiontechnologies, revtech, rev tech" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
         function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- //for-mobile-apps -->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="{{ asset('css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all" />
+    <link href="{{ asset('css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
     <!-- pop-up-script -->
-    <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="{{ asset('css/chocolat.css')}}" type="text/css" media="screen" charset="utf-8">
     <!-- //pop-up-script -->
     <!-- js -->
-    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="{{ asset('js/jquery-2.1.4.min.js')}}"></script>
     <!-- //js -->
     <!-- font-awesome icons -->
-    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="{{ asset('css/font-awesome.css')}}" rel="stylesheet" type="text/css" media="all" />
     <!-- //font-awesome icons -->
     <link href="//fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
     <!-- start-smoth-scrolling -->
-    <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="{{ asset('js/move-top.js')}}"></script>
+    <script type="text/javascript" src="{{ asset('js/easing.js')}}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function($) {
             $(".scroll").click(function(event){
@@ -107,8 +108,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="portfolio-agile">
             <div class="main">
                 <div class="view view-seventh">
-                    <a href="images/g1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                        <img src="images/g1-.jpg" />
+                    <a href="{{ asset('images/g1.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                        <img src="{{ asset('images/g1-.jpg')}}" />
                         <div class="mask">
                             <h2>Executive</h2>
                             <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
@@ -116,8 +117,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </a>
                 </div>
                 <div class="view view-seventh">
-                    <a href="images/g2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                        <img src="images/g2-.jpg" />
+                    <a href="{{ asset('images/g2.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                        <img src="{{ asset('images/g2-.jpg')}}" />
                         <div class="mask">
                             <h2>Executive</h2>
                             <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
@@ -125,8 +126,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </a>
                 </div>
                 <div class="view view-seventh">
-                    <a href="images/g3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                        <img src="images/g3-.jpg" />
+                    <a href="{{ asset('images/g3.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                        <img src="{{ asset('images/g3-.jpg')}}" />
                         <div class="mask">
                             <h2>Executive</h2>
                             <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
@@ -134,8 +135,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </a>
                 </div>
                 <div class="view view-seventh">
-                    <a href="images/g4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                        <img src="images/g4-.jpg" />
+                    <a href="{{ asset('images/g4.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                        <img src="{{ asset('images/g4-.jpg')}}" />
                         <div class="mask">
                             <h2>Executive</h2>
                             <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
@@ -146,8 +147,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
 
             <div class="view view-seventh">
-                <a href="images/g5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                    <img src="images/g5-.jpg" />
+                <a href="{{ asset('images/g5.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                    <img src="{{ asset('images/g5-.jpg')}}" />
                     <div class="mask">
                         <h2>Executive</h2>
                         <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
@@ -155,8 +156,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a>
             </div>
             <div class="view view-seventh">
-                <a href="images/g6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                    <img src="images/g6-.jpg" />
+                <a href="{{ asset('images/g6.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                    <img src="{{ asset('images/g6-.jpg')}}" />
                     <div class="mask">
                         <h2>Executive</h2>
                         <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
@@ -164,8 +165,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a>
             </div>
             <div class="view view-seventh">
-                <a href="images/g7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                    <img src="images/g7-.jpg" />
+                <a href="{{ asset('images/g7.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                    <img src="{{ asset('images/g7-.jpg')}}" />
                     <div class="mask">
                         <h2>Executive</h2>
                         <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
@@ -173,8 +174,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a>
             </div>
             <div class="view view-seventh">
-                <a href="images/g2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                    <img src="images/g2-.jpg" />
+                <a href="{{ asset('images/g2.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                    <img src="{{ asset('images/g2-.jpg')}}" />
                     <div class="mask">
                         <h2>Executive</h2>
                         <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
@@ -185,8 +186,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
             <div class="view view-seventh">
-                <a href="images/g4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                    <img src="images/g4-.jpg" />
+                <a href="{{ asset('images/g4.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                    <img src="{{ asset('images/g4-.jpg')}}" />
                     <div class="mask">
                         <h2>Executive</h2>
                         <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
@@ -194,8 +195,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a>
             </div>
             <div class="view view-seventh">
-                <a href="images/g2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                    <img src="images/g2-.jpg" />
+                <a href="{{ asset('images/g2.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                    <img src="{{ asset('images/g2-.jpg')}}" />
                     <div class="mask">
                         <h2>Executive</h2>
                         <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
@@ -203,8 +204,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a>
             </div>
             <div class="view view-seventh">
-                <a href="images/g3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                    <img src="images/g3-.jpg" />
+                <a href="{{ asset('images/g3.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                    <img src="{{ asset('images/g3-.jpg')}}" />
                     <div class="mask">
                         <h2>Executive</h2>
                         <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
@@ -212,8 +213,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a>
             </div>
             <div class="view view-seventh">
-                <a href="images/g1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                    <img src="images/g1-.jpg" />
+                <a href="{{ asset('images/g1.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                    <img src="{{ asset('images/g1-.jpg')}}" />
                     <div class="mask">
                         <h2>Executive</h2>
                         <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
@@ -227,7 +228,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!-- //portfolio -->
 <!-- pop-up-script -->
-<script src="js/jquery.chocolat.js"></script>
+<script src="{{ asset('js/jquery.chocolat.js')}}"></script>
 <script type="text/javascript" charset="utf-8">
     $(function() {
         $('.view-seventh a').Chocolat();
@@ -308,13 +309,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="clearfix"></div>
         </div>
         <div class="copy-right-agile">
-            <p>© 2017 Executive. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+            <p>All rights reserved &copy; <?php echo date('Y', strtotime('+8 HOURS'))?> | Design by <a href="http://blaqueyard.com/">blaqueyard.com</a></p>
         </div>
     </div>
 </div>
 <!-- //footer -->
 <!-- for bootstrap working -->
-<script src="js/bootstrap.js"></script>
+<script src="{{ asset('js/bootstrap.js')}}"></script>
 <!-- //for bootstrap working -->
 <!-- here stars scrolling icon -->
 <script type="text/javascript">
