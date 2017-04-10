@@ -48,8 +48,8 @@ revolutiontechnologies, revtech, rev tech" />
         <div class="agile-header">
             <div class="agileits-contact-info text-right">
                 <ul>
-                    <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">mail@example.com</a></li>
-                    <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+080 264 995</li>
+                    <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@revolutiontechnologieslimited.com">info@revolutiontechnologieslimited.com</a></li>
+                    <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+254700381030</li>
                 </ul>
             </div>
             <div class="w3_agileits_social_media">
@@ -107,7 +107,7 @@ revolutiontechnologies, revtech, rev tech" />
                 <h2 class="w3ls_head">What we Offer</h2>
             </div>
         </div>
-        <p class="w3layouts_para">Fusce quis leo in augue ultricies tincidunt a quis mi. Donec at massa nec sem eleifend fermentum.</p>
+        <p class="w3layouts_para">We offer a wide array of I.T solution ranging from cloud computing, security, virtualization, I.T support, networking etc...</p>
         <div class="agile_banner_bottom_grids">
             <div class="col-md-3 agile_services_grid">
                 <div class="agileits_w3layouts_service_grid">
@@ -116,8 +116,11 @@ revolutiontechnologies, revtech, rev tech" />
                         <i class="fa fa-briefcase" aria-hidden="true"></i>
                     </div>
                 </div>
-                <h4>Placerat nisl</h4>
-                <p>Duis ac sodales nulla, sit amet aliquet libero. In auctor sed lectus quis consectetur.</p>
+                <h4>Cloud Solutions (Microsoft Office 365, Microsoft Azure)</h4>
+                <p>We provide clients with the right space and context to think and then execute a
+                    far more coherent solution. We help both the large and medium sized
+                    enterprise with alternative solutions from those being sold by the last
+                    generation of technology manufacturers.</p>
 
             </div>
             <div class="col-md-3 agile_services_grid">
@@ -127,8 +130,10 @@ revolutiontechnologies, revtech, rev tech" />
                         <i class="fa fa-bar-chart" aria-hidden="true"></i>
                     </div>
                 </div>
-                <h4>sodales amet</h4>
-                <p>Duis ac sodales nulla, sit amet aliquet libero. In auctor sed lectus quis consectetur.</p>
+                <h4>Design & Architecture</h4>
+                <p>We learn and gather information and use it to model a solution vision that
+                    defines the IT systems, business processes and reusable services for a
+                    specific organizations, spanning across business and technology architectures.</p>
 
             </div>
             <div class="col-md-3 agile_services_grid">
@@ -138,8 +143,10 @@ revolutiontechnologies, revtech, rev tech" />
                         <i class="fa fa-bullhorn" aria-hidden="true"></i>
                     </div>
                 </div>
-                <h4>Aliquet libero</h4>
-                <p>Duis ac sodales nulla, sit amet aliquet libero. In auctor sed lectus quis consectetur.</p>
+                <h4>Outsourced IT</h4>
+                <p>Our 24/7/365 service desk function delivers first, second and third line support
+                    to Enterprise customers and end users from our operation center in Nairobi,
+                    Kenya</p>
 
             </div>
             <div class="col-md-3 agile_services_grid">
@@ -149,10 +156,15 @@ revolutiontechnologies, revtech, rev tech" />
                         <i class="fa fa-building-o" aria-hidden="true"></i>
                     </div>
                 </div>
-                <h4>Sed lectus</h4>
-                <p>Duis ac sodales nulla, sit amet aliquet libero. In auctor sed lectus quis consectetur.</p>
+                <h4>Managed Services</h4>
+                <p>As a Managed Service Provider (MSP), we remotely manage a customer's IT
+                    infrastructure and/or end-user systems, typically on a proactive basis and
+                    under a subscription model.</p>
 
             </div>
+
+
+
             <div class="clearfix"> </div>
         </div>
     </div>
@@ -161,7 +173,7 @@ revolutiontechnologies, revtech, rev tech" />
 <!-- services-bottom -->
 <div class="services-bottom services">
     <div class="container">
-        <h3><i class="fa fa-quote-left" aria-hidden="true"></i>the real mechanism for corporate governance is the active involvement of the owners</h3>
+        <h3><i class="fa fa-quote-left" aria-hidden="true"></i>simplicity is the ultimate sophistication</h3>
     </div>
 </div>
 <!-- //services-bottom -->
@@ -256,10 +268,14 @@ revolutiontechnologies, revtech, rev tech" />
             <div class="col-md-3 footer-wthree">
                 <h3>Partners</h3>
                 <ul>
-                    <li>unknown printer</li>
-                    <li>Lorem Ipsum</li>
-                    <li>the printing</li>
-                    <li>typesetting industry.</li>
+                    <li>Oracle</li>
+                    <li>Fortinet</li>
+                    <li>Microsoft</li>
+                    <li>Polycop</li>
+                    <li>Tripwire</li>
+                    <li>Ocedo</li>
+                    <li>Sophos</li>
+                    <li>Secuna</li>
                 </ul>
             </div>
             <div class="col-md-3 footer-w3-agileits">
@@ -275,9 +291,10 @@ revolutiontechnologies, revtech, rev tech" />
                 <h3>Our Links</h3>
                 <ul>
                     <li><a href="{{url('/')}}">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="{{url('about')}}">About</a></li>
+                    <li><a href="{{url('services')}}">Services</a></li>
+                    <li><a href="{{url('portfolio')}}">Portfolio</a></li>
+                    <li><a href="{{url('contact')}}">Contact</a></li>
                 </ul>
             </div>
             <div class="clearfix"></div>
@@ -292,13 +309,13 @@ revolutiontechnologies, revtech, rev tech" />
                 <div class="footer-agile">
                     <div class="col-md-6 footer-w3-1">
                         <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-                        <p> 7th Street 2nd Line,  </p>
-                        <p> Melbourne City, Australia.</p>
+                        <p> West business center 5 th Floor,  </p>
+                        <p> Kaunda Street, Nairobi.</p>
                     </div>
                     <div class="col-md-6 footer-w3l-1">
                         <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
-                        <p> +080 264345 995.</p>
-                        <p> +080 264345 996.</p>
+                        <p> +254700381030</p>
+                        <p> 0786887923</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>

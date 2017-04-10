@@ -52,8 +52,8 @@ revolutiontechnologies, revtech, rev tech" />
         <div class="agile-header">
             <div class="agileits-contact-info text-right">
                 <ul>
-                    <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">mail@example.com</a></li>
-                    <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+080 264 995</li>
+                    <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@revolutiontechnologieslimited.com">info@revolutiontechnologieslimited.com</a></li>
+                    <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+254700381030</li>
                 </ul>
             </div>
             <div class="w3_agileits_social_media">
@@ -252,10 +252,14 @@ revolutiontechnologies, revtech, rev tech" />
             <div class="col-md-3 footer-wthree">
                 <h3>Partners</h3>
                 <ul>
-                    <li>unknown printer</li>
-                    <li>Lorem Ipsum</li>
-                    <li>the printing</li>
-                    <li>typesetting industry.</li>
+                    <li>Oracle</li>
+                    <li>Fortinet</li>
+                    <li>Microsoft</li>
+                    <li>Polycop</li>
+                    <li>Tripwire</li>
+                    <li>Ocedo</li>
+                    <li>Sophos</li>
+                    <li>Secuna</li>
                 </ul>
             </div>
             <div class="col-md-3 footer-w3-agileits">
@@ -270,10 +274,11 @@ revolutiontechnologies, revtech, rev tech" />
             <div class="col-md-3 footer-agileits-w3layouts">
                 <h3>Our Links</h3>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="{{url('/')}}">Home</a></li>
+                    <li><a href="{{url('about')}}">About</a></li>
+                    <li><a href="{{url('services')}}">Services</a></li>
+                    <li><a href="{{url('portfolio')}}">Portfolio</a></li>
+                    <li><a href="{{url('contact')}}">Contact</a></li>
                 </ul>
             </div>
             <div class="clearfix"></div>
@@ -288,13 +293,13 @@ revolutiontechnologies, revtech, rev tech" />
                 <div class="footer-agile">
                     <div class="col-md-6 footer-w3-1">
                         <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-                        <p> 7th Street 2nd Line,  </p>
-                        <p> Melbourne City, Australia.</p>
+                        <p> West business center 5 th Floor,  </p>
+                        <p> Kaunda Street, Nairobi.</p>
                     </div>
                     <div class="col-md-6 footer-w3l-1">
                         <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
-                        <p> +080 264345 995.</p>
-                        <p> +080 264345 996.</p>
+                        <p> +254700381030</p>
+                        <p> 0786887923</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>

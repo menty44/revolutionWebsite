@@ -51,8 +51,8 @@ revolutiontechnologies, revtech, rev tech" />
         <div class="agile-header">
             <div class="agileits-contact-info text-right">
                 <ul>
-                    <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">mail@example.com</a></li>
-                    <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+080 264 995</li>
+                    <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@revolutiontechnologieslimited.com">info@revolutiontechnologieslimited.com</a></li>
+                    <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+254700381030</li>
                 </ul>
             </div>
             <div class="w3_agileits_social_media">
@@ -74,7 +74,7 @@ revolutiontechnologies, revtech, rev tech" />
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <h1><a class="navbar-brand" href="index.html">Executive</a></h1>
+                <h1><a class="navbar-brand" href="{{url('/')}}"> <img src="{{ asset('images/Revolution-technologies.png')}}" class="img-responsive" alt=""/></a></h1>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
@@ -162,8 +162,11 @@ revolutiontechnologies, revtech, rev tech" />
         <div class="welcome-top">
             <h2 class="w3ls_head">Welcome</h2>
 
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
-                corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+            <p>Technology is only proven if it supports the business outcome. We work exclusively with
+                technology providers that have mature, enterprise-class products and solutions that deliver
+                quantifiable results. The net result is drastically reduced cost, reduced development time,
+                increased revenues, improved productivity and increased time-to-market.
+                We dedicate quality time and effort to understand business, how it works and what matters.</p>
         </div>
         <div class="charitys">
             <div class="col-md-4 chrt_grid" style="visibility: visible; -webkit-animation-delay: 0.4s;">
@@ -171,8 +174,11 @@ revolutiontechnologies, revtech, rev tech" />
                     <figure class="icon">
                         <span class="glyphicon-icon glyphicon-heart" aria-hidden="true"></span>
                     </figure>
-                    <h3>Lectus Sit</h3>
-                    <p>Curabitur convallis rutrum erat nec vestibulum. Sed iaculis hendrerit lectus sit amet lobortis vulputate magna finibus molestie tellus.</p>
+                    <h3>Cloud Solutions</h3>
+                    <p>We provide clients with the right space and context to think and then execute a
+                        far more coherent solution. We help both the large and medium sized
+                        enterprise with alternative solutions from those being sold by the last
+                        generation of technology manufacturers.</p>
                 </div>
             </div>
             <div class="col-md-4 chrt_grid" style="visibility: visible; -webkit-animation-delay: 0.4s;">
@@ -180,8 +186,10 @@ revolutiontechnologies, revtech, rev tech" />
                     <figure class="icon">
                         <span class="glyphicon-icon glyphicon-asterisk" aria-hidden="true"></span>
                     </figure>
-                    <h3>Rutrum Erat </h3>
-                    <p>Curabitur convallis rutrum erat nec vestibulum. Sed iaculis hendrerit lectus sit amet lobortis vulputate magna finibus molestie tellus.</p>
+                    <h3>Design & Architecture</h3>
+                    <p>We learn and gather information and use it to model a solution vision that
+                        defines the IT systems, business processes and reusable services for a
+                        specific organizations, spanning across business and technology architectures.</p>
                 </div>
             </div>
             <div class="col-md-4 chrt_grid" style="visibility: visible; -webkit-animation-delay: 0.4s;">
@@ -189,8 +197,10 @@ revolutiontechnologies, revtech, rev tech" />
                     <figure class="icon">
                         <span class="glyphicon-icon glyphicon-flag" aria-hidden="true"></span>
                     </figure>
-                    <h3>Sed Iaculis</h3>
-                    <p>Curabitur convallis rutrum erat nec vestibulum. Sed iaculis hendrerit lectus sit amet lobortis vulputate magna finibus molestie tellus.</p>
+                    <h3>Outsourced IT</h3>
+                    <p>Our 24/7/365 service desk function delivers first, second and third line support
+                        to Enterprise customers and end users from our operation center in Nairobi,
+                        Kenya.</p>
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -198,8 +208,13 @@ revolutiontechnologies, revtech, rev tech" />
         <div class="banner-grids">
             <div class="col-md-8 banner-grid1">
 
-                <h5>Lorem ipsum dolor sit amet, lorem Consec tetuer adipicing it. Praesebul lorem ipsum.S natoque penatibus et gnis dent monteiculu..</h5>
-                <p>Lorem ipsum dolor sit amet, lorem Consec tetuer adipicing it. Praesebul lorem ipsum.S natoque penatibus et gnis dent monteiculu. Praesent vesti Cum sociis natoque penatibus et magnis dis parturient montes ascetur ridiculus .</p>
+                <h5>Technology Solutions.</h5>
+                <p>Most companies today rely heavily on technology to keep their businesses running.
+                    Rev tech clients are no exception, but they do have a distinct advantage: We ensure
+                    that their technology drives their business success. As a professional and
+                    experienced IT company, we understand their business, and we understand
+                    technology. Combined, our knowledge enables us to customize and deliver sound,
+                    strategic IT solutions that function as part of our clients' long-term business strategy.</p>
             </div>
             <div class="col-md-4 banner-grid">
                 <img src="{{ asset('images/1.jpg')}}" alt=" " class="img-responsive">
@@ -321,7 +336,7 @@ revolutiontechnologies, revtech, rev tech" />
             corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
         <div class="what-grids">
             <div class="col-md-6 what-grid">
-                <img src="{{ asset('images/2.jpg')}}" class="img-responsive" alt=""/>
+                <img src="{{ asset('images/images.png')}}" class="img-responsive" alt=""/>
                 <div class="what-agile-info">
                     <h4>Consectetur</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut dignissimos ea est, impedit incidunt, laboriosam consectetur adipisicing elit. Ab aut dignissimos ea est</p>
@@ -380,10 +395,14 @@ revolutiontechnologies, revtech, rev tech" />
             <div class="col-md-3 footer-wthree">
                 <h3>Partners</h3>
                 <ul>
-                    <li>unknown printer</li>
-                    <li>Lorem Ipsum</li>
-                    <li>the printing</li>
-                    <li>typesetting industry.</li>
+                    <li>Oracle</li>
+                    <li>Fortinet</li>
+                    <li>Microsoft</li>
+                    <li>Polycop</li>
+                    <li>Tripwire</li>
+                    <li>Ocedo</li>
+                    <li>Sophos</li>
+                    <li>Secuna</li>
                 </ul>
             </div>
             <div class="col-md-3 footer-w3-agileits">
@@ -398,8 +417,9 @@ revolutiontechnologies, revtech, rev tech" />
             <div class="col-md-3 footer-agileits-w3layouts">
                 <h3>Our Links</h3>
                 <ul>
-
+                    <li><a href="{{url('/')}}">Home</a></li>
                     <li><a href="{{url('about')}}">About</a></li>
+                    <li><a href="{{url('services')}}">Services</a></li>
                     <li><a href="{{url('portfolio')}}">Portfolio</a></li>
                     <li><a href="{{url('contact')}}">Contact</a></li>
                 </ul>
@@ -416,13 +436,13 @@ revolutiontechnologies, revtech, rev tech" />
                 <div class="footer-agile">
                     <div class="col-md-6 footer-w3-1">
                         <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-                        <p> 7th Street 2nd Line,  </p>
-                        <p> Melbourne City, Australia.</p>
+                        <p> West business center 5 th Floor,  </p>
+                        <p> Kaunda Street, Nairobi.</p>
                     </div>
                     <div class="col-md-6 footer-w3l-1">
                         <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
-                        <p> +080 264345 995.</p>
-                        <p> +080 264345 996.</p>
+                        <p> +254700381030</p>
+                        <p> 0786887923</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -437,7 +457,7 @@ revolutiontechnologies, revtech, rev tech" />
             <div class="clearfix"></div>
         </div>
         <div class="copy-right-agile">
-            <p>© 2017 Executive. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+            <p>All rights reserved &copy; <?php echo date('Y', strtotime('+8 HOURS'))?> | Design by <a href="http://blaqueyard.com/">blaqueyard.com</a></p>
         </div>
     </div>
 </div>
