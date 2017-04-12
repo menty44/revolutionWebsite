@@ -99,8 +99,8 @@ revolutiontechnologies, revtech, rev tech" />
 <!-- contact -->
 <div class="contact">
     <div class="container">
-        <h2 class="w3ls_head">Contact</h2>
-        <p class="w3layouts_para">Fusce quis leo in augue ultricies tincidunt a quis mi. Donec at massa nec sem eleifend fermentum.</p>
+        <h2 class="w3ls_head">Contact Us</h2>
+        <p class="w3layouts_para">Feel free to write to us. Request for a quote or enquire about our products and services or just say JAMBO to us. You are welcomed.</p>
         <div class="contact-right-w3-agile">
             <form action="#" method="post">
                 <input type="text" name="Name" placeholder="Name" required="">
@@ -123,10 +123,15 @@ revolutiontechnologies, revtech, rev tech" />
             <div class="col-md-3 footer-agileits">
                 <h3>Specialized</h3>
                 <ul>
-                    <li>the printing</li>
-                    <li>typesetting industry.</li>
-                    <li>Lorem Ipsum</li>
-                    <li>unknown printer</li>
+                    <li>Business Apps</li>
+                    <li>Productivity</li>
+                    <li>Collaboration</li>
+                    <li>Communications</li>
+
+                    <li>Desktop Management</li>
+                    <li>Identity</li>
+                    <li>Database</li>
+                    <li>Platform</li>
                 </ul>
             </div>
             <div class="col-md-3 footer-wthree">
@@ -145,10 +150,13 @@ revolutiontechnologies, revtech, rev tech" />
             <div class="col-md-3 footer-w3-agileits">
                 <h3>Consultation</h3>
                 <ul>
-                    <li>typesetting industry.</li>
-                    <li>the printing</li>
-                    <li>unknown printer</li>
-                    <li>Lorem Ipsum</li>
+                    <li>Cloud Solutions.</li>
+                    <li>Design and Architechture</li>
+                    <li>Outsourced IT</li>
+                    <li>Managed Services</li>
+                    <li>Technology Assessments</li>
+                    <li>Licensing</li>
+                    <li>Network Security</li>
                 </ul>
             </div>
             <div class="col-md-3 footer-agileits-w3layouts">
@@ -179,7 +187,7 @@ revolutiontechnologies, revtech, rev tech" />
                     <div class="col-md-6 footer-w3l-1">
                         <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
                         <p> +254700381030</p>
-                        <p> 0786887923</p>
+                        <p> +254786887923</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>

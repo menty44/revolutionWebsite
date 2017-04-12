@@ -103,15 +103,15 @@ revolutiontechnologies, revtech, rev tech" />
 <div class="portfolio">
     <div class="container">
         <h2 class="w3ls_head">Portfolio</h2>
-        <p class="w3layouts_para">Fusce quis leo in augue ultricies tincidunt a quis mi. Donec at massa nec sem eleifend fermentum.</p>
+        <p class="w3layouts_para">These are some of the products that we do provide.</p>
         <div class="portfolio-agile">
             <div class="main">
                 <div class="view view-seventh">
                     <a href="{{ asset('images/g1.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
                         <img src="{{ asset('images/g1-.jpg')}}" />
                         <div class="mask">
-                            <h2>Executive</h2>
-                            <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
+                            <h2>Business Apps</h2>
+                            <p>Microsoft Dynamics ERP, Microsoft Dynamics CRM </p>
                         </div>
                     </a>
                 </div>
@@ -119,8 +119,8 @@ revolutiontechnologies, revtech, rev tech" />
                     <a href="{{ asset('images/g2.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
                         <img src="{{ asset('images/g2-.jpg')}}" />
                         <div class="mask">
-                            <h2>Executive</h2>
-                            <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
+                            <h2>Productivity</h2>
+                            <p>Microsoft Office, Microsoft Office 365. </p>
                         </div>
                     </a>
                 </div>
@@ -128,8 +128,8 @@ revolutiontechnologies, revtech, rev tech" />
                     <a href="{{ asset('images/g3.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
                         <img src="{{ asset('images/g3-.jpg')}}" />
                         <div class="mask">
-                            <h2>Executive</h2>
-                            <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
+                            <h2>Collaboration</h2>
+                            <p>Sharepoint Server, Sharepoint Online, Microsoft office live meeting. </p>
                         </div>
                     </a>
                 </div>
@@ -137,89 +137,89 @@ revolutiontechnologies, revtech, rev tech" />
                     <a href="{{ asset('images/g4.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
                         <img src="{{ asset('images/g4-.jpg')}}" />
                         <div class="mask">
-                            <h2>Executive</h2>
-                            <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
+                            <h2>Communications</h2>
+                            <p>Exchange server, Microsoft office communications Server, Exchange online. </p>
                         </div>
                     </a>
                 </div>
 
             </div>
 
-            <div class="view view-seventh">
-                <a href="{{ asset('images/g5.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                    <img src="{{ asset('images/g5-.jpg')}}" />
-                    <div class="mask">
-                        <h2>Executive</h2>
-                        <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-                    </div>
-                </a>
-            </div>
-            <div class="view view-seventh">
-                <a href="{{ asset('images/g6.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                    <img src="{{ asset('images/g6-.jpg')}}" />
-                    <div class="mask">
-                        <h2>Executive</h2>
-                        <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-                    </div>
-                </a>
-            </div>
-            <div class="view view-seventh">
-                <a href="{{ asset('images/g7.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                    <img src="{{ asset('images/g7-.jpg')}}" />
-                    <div class="mask">
-                        <h2>Executive</h2>
-                        <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-                    </div>
-                </a>
-            </div>
-            <div class="view view-seventh">
-                <a href="{{ asset('images/g2.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                    <img src="{{ asset('images/g2-.jpg')}}" />
-                    <div class="mask">
-                        <h2>Executive</h2>
-                        <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-                    </div>
-                </a>
-            </div>
+            {{--<div class="view view-seventh">--}}
+                {{--<a href="{{ asset('images/g5.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">--}}
+                    {{--<img src="{{ asset('images/g5-.jpg')}}" />--}}
+                    {{--<div class="mask">--}}
+                        {{--<h2>Executive</h2>--}}
+                        {{--<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>--}}
+                    {{--</div>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            {{--<div class="view view-seventh">--}}
+                {{--<a href="{{ asset('images/g6.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">--}}
+                    {{--<img src="{{ asset('images/g6-.jpg')}}" />--}}
+                    {{--<div class="mask">--}}
+                        {{--<h2>Executive</h2>--}}
+                        {{--<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>--}}
+                    {{--</div>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            {{--<div class="view view-seventh">--}}
+                {{--<a href="{{ asset('images/g7.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">--}}
+                    {{--<img src="{{ asset('images/g7-.jpg')}}" />--}}
+                    {{--<div class="mask">--}}
+                        {{--<h2>Executive</h2>--}}
+                        {{--<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>--}}
+                    {{--</div>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            {{--<div class="view view-seventh">--}}
+                {{--<a href="{{ asset('images/g2.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">--}}
+                    {{--<img src="{{ asset('images/g2-.jpg')}}" />--}}
+                    {{--<div class="mask">--}}
+                        {{--<h2>Executive</h2>--}}
+                        {{--<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>--}}
+                    {{--</div>--}}
+                {{--</a>--}}
+            {{--</div>--}}
 
 
 
-            <div class="view view-seventh">
-                <a href="{{ asset('images/g4.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                    <img src="{{ asset('images/g4-.jpg')}}" />
-                    <div class="mask">
-                        <h2>Executive</h2>
-                        <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-                    </div>
-                </a>
-            </div>
-            <div class="view view-seventh">
-                <a href="{{ asset('images/g2.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                    <img src="{{ asset('images/g2-.jpg')}}" />
-                    <div class="mask">
-                        <h2>Executive</h2>
-                        <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-                    </div>
-                </a>
-            </div>
-            <div class="view view-seventh">
-                <a href="{{ asset('images/g3.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                    <img src="{{ asset('images/g3-.jpg')}}" />
-                    <div class="mask">
-                        <h2>Executive</h2>
-                        <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-                    </div>
-                </a>
-            </div>
-            <div class="view view-seventh">
-                <a href="{{ asset('images/g1.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                    <img src="{{ asset('images/g1-.jpg')}}" />
-                    <div class="mask">
-                        <h2>Executive</h2>
-                        <p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-                    </div>
-                </a>
-            </div>
+            {{--<div class="view view-seventh">--}}
+                {{--<a href="{{ asset('images/g4.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">--}}
+                    {{--<img src="{{ asset('images/g4-.jpg')}}" />--}}
+                    {{--<div class="mask">--}}
+                        {{--<h2>Executive</h2>--}}
+                        {{--<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>--}}
+                    {{--</div>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            {{--<div class="view view-seventh">--}}
+                {{--<a href="{{ asset('images/g2.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">--}}
+                    {{--<img src="{{ asset('images/g2-.jpg')}}" />--}}
+                    {{--<div class="mask">--}}
+                        {{--<h2>Executive</h2>--}}
+                        {{--<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>--}}
+                    {{--</div>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            {{--<div class="view view-seventh">--}}
+                {{--<a href="{{ asset('images/g3.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">--}}
+                    {{--<img src="{{ asset('images/g3-.jpg')}}" />--}}
+                    {{--<div class="mask">--}}
+                        {{--<h2>Executive</h2>--}}
+                        {{--<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>--}}
+                    {{--</div>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            {{--<div class="view view-seventh">--}}
+                {{--<a href="{{ asset('images/g1.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">--}}
+                    {{--<img src="{{ asset('images/g1-.jpg')}}" />--}}
+                    {{--<div class="mask">--}}
+                        {{--<h2>Executive</h2>--}}
+                        {{--<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>--}}
+                    {{--</div>--}}
+                {{--</a>--}}
+            {{--</div>--}}
             <div class="clearfix"></div>
 
         </div>
@@ -242,10 +242,14 @@ revolutiontechnologies, revtech, rev tech" />
             <div class="col-md-3 footer-agileits">
                 <h3>Specialized</h3>
                 <ul>
-                    <li>the printing</li>
-                    <li>typesetting industry.</li>
-                    <li>Lorem Ipsum</li>
-                    <li>unknown printer</li>
+                    <li>Business Apps</li>
+                    <li>Productivity</li>
+                    <li>Collaboration</li>
+                    <li>Communications</li>
+                    <li>Desktop Management</li>
+                    <li>Identity</li>
+                    <li>Database</li>
+                    <li>Platform</li>
                 </ul>
             </div>
             <div class="col-md-3 footer-wthree">
@@ -264,10 +268,13 @@ revolutiontechnologies, revtech, rev tech" />
             <div class="col-md-3 footer-w3-agileits">
                 <h3>Consultation</h3>
                 <ul>
-                    <li>typesetting industry.</li>
-                    <li>the printing</li>
-                    <li>unknown printer</li>
-                    <li>Lorem Ipsum</li>
+                    <li>Cloud Solutions.</li>
+                    <li>Design and Architechture</li>
+                    <li>Outsourced IT</li>
+                    <li>Managed Services</li>
+                    <li>Technology Assessments</li>
+                    <li>Licensing</li>
+                    <li>Network Security</li>
                 </ul>
             </div>
             <div class="col-md-3 footer-agileits-w3layouts">
@@ -298,7 +305,7 @@ revolutiontechnologies, revtech, rev tech" />
                     <div class="col-md-6 footer-w3l-1">
                         <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
                         <p> +254700381030</p>
-                        <p> 0786887923</p>
+                        <p> +254786887923</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>

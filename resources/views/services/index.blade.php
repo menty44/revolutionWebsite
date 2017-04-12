@@ -185,10 +185,15 @@ revolutiontechnologies, revtech, rev tech" />
                 <h3 class="w3ls_head">Why choose us</h3>
             </div>
         </div>
-        <p class="w3layouts_para">Fusce quis leo in augue ultricies tincidunt a quis mi. Donec at massa nec sem eleifend fermentum.</p>
+        <p class="w3layouts_para">Most companies today rely heavily on technology to keep their businesses running.
+            Rev tech clients are no exception, but they do have a distinct advantage: We ensure
+            that their technology drives their business success. As a professional and
+            experienced IT company, we understand their business, and we understand
+            technology. Combined, our knowledge enables us to customize and deliver sound,
+            strategic IT solutions that function as part of our clients' long-term business strategy.</p>
         <div class="agile_banner_bottom_grids">
             <div class="col-md-4 agileinfo_choose_left">
-                <img src="{{ asset('images/5.jpg')}}" alt=" " class="img-responsive" />
+                <img src="{{ asset('images/flat.jpg')}}" alt=" " class="img-responsive" />
             </div>
             <div class="col-md-8 agileinfo_choose_right">
                 <div class="col-md-6 w3l_choose_right_grid">
@@ -258,10 +263,15 @@ revolutiontechnologies, revtech, rev tech" />
             <div class="col-md-3 footer-agileits">
                 <h3>Specialized</h3>
                 <ul>
-                    <li>the printing</li>
-                    <li>typesetting industry.</li>
-                    <li>Lorem Ipsum</li>
-                    <li>unknown printer</li>
+                    <li>Business Apps</li>
+                    <li>Productivity</li>
+                    <li>Collaboration</li>
+                    <li>Communications</li>
+
+                    <li>Desktop Management</li>
+                    <li>Identity</li>
+                    <li>Database</li>
+                    <li>Platform</li>
                 </ul>
             </div>
             <div class="col-md-3 footer-wthree">
@@ -280,10 +290,13 @@ revolutiontechnologies, revtech, rev tech" />
             <div class="col-md-3 footer-w3-agileits">
                 <h3>Consultation</h3>
                 <ul>
-                    <li>typesetting industry.</li>
-                    <li>the printing</li>
-                    <li>unknown printer</li>
-                    <li>Lorem Ipsum</li>
+                    <li>Cloud Solutions.</li>
+                    <li>Design and Architechture</li>
+                    <li>Outsourced IT</li>
+                    <li>Managed Services</li>
+                    <li>Technology Assessments</li>
+                    <li>Licensing</li>
+                    <li>Network Security</li>
                 </ul>
             </div>
             <div class="col-md-3 footer-agileits-w3layouts">
@@ -314,7 +327,7 @@ revolutiontechnologies, revtech, rev tech" />
                     <div class="col-md-6 footer-w3l-1">
                         <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
                         <p> +254700381030</p>
-                        <p> 0786887923</p>
+                        <p> +254786887923</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>

@@ -130,7 +130,7 @@ revolutiontechnologies, revtech, rev tech" />
                 </div>
             </div>
             <div class="col-md-6 agileits_courses_right">
-                <img src="{{ asset('images/2.jpg')}}" alt=" " class="img-responsive">
+                <img src="{{ asset('images/Revolution-technologies.png')}}" alt=" " class="img-responsive">
             </div>
             <div class="clearfix"> </div>
         </div>
@@ -243,74 +243,75 @@ revolutiontechnologies, revtech, rev tech" />
 <div class="team">
     <div class="container">
         <h3 class="w3ls_head">Our Team</h3>
-        <p class="w3layouts_para">Fusce quis leo in augue ultricies tincidunt a quis mi. Donec at massa nec sem eleifend fermentum.</p>
-        <div class="w3_services_grids">
-            <div class="col-md-3 w3ls_team_grid">
-                <div class="w3ls_team_grid1 hover15">
-                    <figure>
-                        <img src="{{ asset('images/team3.jpg')}}" alt=" " class="img-responsive" />
-                    </figure>
-                    <div class="w3ls_team_grid1_pos">
-                        <ul class="social-icons">
-                            <li><a href="#" class="icon icon-border facebook"></a></li>
-                            <li><a href="#" class="icon icon-border twitter"></a></li>
-                            <li><a href="#" class="icon icon-border instagram"></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <h4>JOE</h4>
-                <p>The printing</p>
-            </div>
-            <div class="col-md-3 w3ls_team_grid">
-                <div class="w3ls_team_grid1 hover15">
-                    <figure>
-                        <img src="{{ asset('images/team4.jpg')}}" alt=" " class="img-responsive" />
-                    </figure>
-                    <div class="w3ls_team_grid1_pos">
-                        <ul class="social-icons">
-                            <li><a href="#" class="icon icon-border twitter"></a></li>
-                            <li><a href="#" class="icon icon-border instagram"></a></li>
-                            <li><a href="#" class="icon icon-border facebook"></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <h4>ADAM</h4>
-                <p>Lorem Ipsum</p>
-            </div>
-            <div class="col-md-3 w3ls_team_grid">
-                <div class="w3ls_team_grid1 hover15">
-                    <figure>
-                        <img src="{{ asset('images/team2.jpg')}}" alt=" " class="img-responsive" />
-                    </figure>
-                    <div class="w3ls_team_grid1_pos">
-                        <ul class="social-icons">
-                            <li><a href="#" class="icon icon-border instagram"></a></li>
-                            <li><a href="#" class="icon icon-border facebook"></a></li>
-                            <li><a href="#" class="icon icon-border twitter"></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <h4>JACK</h4>
-                <p>The printing</p>
-            </div>
-            <div class="col-md-3 w3ls_team_grid">
-                <div class="w3ls_team_grid1 hover15">
-                    <figure>
-                        <img src="{{ asset('images/team1.jpg')}}" alt=" " class="img-responsive" />
-                    </figure>
-                    <div class="w3ls_team_grid1_pos">
-                        <ul class="social-icons">
-                            <li><a href="#" class="icon icon-border pinterest"></a></li>
-                            <li><a href="#" class="icon icon-border twitter"></a></li>
-                            <li><a href="#" class="icon icon-border instagram"></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <h4>LANA</h4>
-                <p>Lorem Ipsum</p>
-            </div>
-            <div class="clearfix"> </div>
-        </div>
+        <p class="w3layouts_para">Revolution Technologies is comprised of highly skilled resources with many years of experience in the Information Technology
+            industry.</p>
+        {{--<div class="w3_services_grids">--}}
+            {{--<div class="col-md-3 w3ls_team_grid">--}}
+                {{--<div class="w3ls_team_grid1 hover15">--}}
+                    {{--<figure>--}}
+                        {{--<img src="{{ asset('images/team3.jpg')}}" alt=" " class="img-responsive" />--}}
+                    {{--</figure>--}}
+                    {{--<div class="w3ls_team_grid1_pos">--}}
+                        {{--<ul class="social-icons">--}}
+                            {{--<li><a href="#" class="icon icon-border facebook"></a></li>--}}
+                            {{--<li><a href="#" class="icon icon-border twitter"></a></li>--}}
+                            {{--<li><a href="#" class="icon icon-border instagram"></a></li>--}}
+                        {{--</ul>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<h4>JOE</h4>--}}
+                {{--<p>The printing</p>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-3 w3ls_team_grid">--}}
+                {{--<div class="w3ls_team_grid1 hover15">--}}
+                    {{--<figure>--}}
+                        {{--<img src="{{ asset('images/team4.jpg')}}" alt=" " class="img-responsive" />--}}
+                    {{--</figure>--}}
+                    {{--<div class="w3ls_team_grid1_pos">--}}
+                        {{--<ul class="social-icons">--}}
+                            {{--<li><a href="#" class="icon icon-border twitter"></a></li>--}}
+                            {{--<li><a href="#" class="icon icon-border instagram"></a></li>--}}
+                            {{--<li><a href="#" class="icon icon-border facebook"></a></li>--}}
+                        {{--</ul>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<h4>ADAM</h4>--}}
+                {{--<p>Lorem Ipsum</p>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-3 w3ls_team_grid">--}}
+                {{--<div class="w3ls_team_grid1 hover15">--}}
+                    {{--<figure>--}}
+                        {{--<img src="{{ asset('images/team2.jpg')}}" alt=" " class="img-responsive" />--}}
+                    {{--</figure>--}}
+                    {{--<div class="w3ls_team_grid1_pos">--}}
+                        {{--<ul class="social-icons">--}}
+                            {{--<li><a href="#" class="icon icon-border instagram"></a></li>--}}
+                            {{--<li><a href="#" class="icon icon-border facebook"></a></li>--}}
+                            {{--<li><a href="#" class="icon icon-border twitter"></a></li>--}}
+                        {{--</ul>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<h4>JACK</h4>--}}
+                {{--<p>The printing</p>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-3 w3ls_team_grid">--}}
+                {{--<div class="w3ls_team_grid1 hover15">--}}
+                    {{--<figure>--}}
+                        {{--<img src="{{ asset('images/team1.jpg')}}" alt=" " class="img-responsive" />--}}
+                    {{--</figure>--}}
+                    {{--<div class="w3ls_team_grid1_pos">--}}
+                        {{--<ul class="social-icons">--}}
+                            {{--<li><a href="#" class="icon icon-border pinterest"></a></li>--}}
+                            {{--<li><a href="#" class="icon icon-border twitter"></a></li>--}}
+                            {{--<li><a href="#" class="icon icon-border instagram"></a></li>--}}
+                        {{--</ul>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<h4>LANA</h4>--}}
+                {{--<p>Lorem Ipsum</p>--}}
+            {{--</div>--}}
+            {{--<div class="clearfix"> </div>--}}
+        {{--</div>--}}
     </div>
 </div>
 <!-- //team -->
@@ -321,10 +322,15 @@ revolutiontechnologies, revtech, rev tech" />
             <div class="col-md-3 footer-agileits">
                 <h3>Specialized</h3>
                 <ul>
-                    <li>the printing</li>
-                    <li>typesetting industry.</li>
-                    <li>Lorem Ipsum</li>
-                    <li>unknown printer</li>
+                    <li>Business Apps</li>
+                    <li>Productivity</li>
+                    <li>Collaboration</li>
+                    <li>Communications</li>
+
+                    <li>Desktop Management</li>
+                    <li>Identity</li>
+                    <li>Database</li>
+                    <li>Platform</li>
                 </ul>
             </div>
             <div class="col-md-3 footer-wthree">
@@ -343,10 +349,13 @@ revolutiontechnologies, revtech, rev tech" />
             <div class="col-md-3 footer-w3-agileits">
                 <h3>Consultation</h3>
                 <ul>
-                    <li>typesetting industry.</li>
-                    <li>the printing</li>
-                    <li>unknown printer</li>
-                    <li>Lorem Ipsum</li>
+                    <li>Cloud Solutions.</li>
+                    <li>Design and Architechture</li>
+                    <li>Outsourced IT</li>
+                    <li>Managed Services</li>
+                    <li>Technology Assessments</li>
+                    <li>Licensing</li>
+                    <li>Network Security</li>
                 </ul>
             </div>
             <div class="col-md-3 footer-agileits-w3layouts">
@@ -377,7 +386,7 @@ revolutiontechnologies, revtech, rev tech" />
                     <div class="col-md-6 footer-w3l-1">
                         <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
                         <p> +254700381030</p>
-                        <p> 0786887923</p>
+                        <p> +254786887923</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
