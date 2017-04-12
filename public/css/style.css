@@ -1352,7 +1352,8 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
     background: transparent;
     border: 2px solid #212121;
     padding: 8px 22px;
-    width: 49.42%;
+    /*width: 49.42%;*/
+    width: 100%;
     outline: none;
 	-webkit-transition:0.5s all;
 	-o-transition:0.5s all;
