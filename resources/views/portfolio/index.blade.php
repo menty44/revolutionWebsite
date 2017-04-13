@@ -7,6 +7,7 @@ author URL: http://blaqueyard.com
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="{{ asset('images/log.png')}}" >
     <title>REVOLUTION TECHNOLOGIES | PORTFOLIO</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -74,7 +75,7 @@ revolutiontechnologies, revtech, rev tech" />
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <h1><a class="navbar-brand" href="index.html">Executive</a></h1>
+                <h1><a class="navbar-brand" href="{{url('/')}}"> <img src="{{ asset('images/log.png')}}" class="img-responsive" alt=""/></a></h1>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
@@ -108,7 +109,7 @@ revolutiontechnologies, revtech, rev tech" />
             <div class="main">
                 <div class="view view-seventh">
                     <a href="{{ asset('images/g1.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                        <img src="{{ asset('images/g1-.jpg')}}" />
+                        <img src="{{ asset('images/crm.png')}}" />
                         <div class="mask">
                             <h2>Business Apps</h2>
                             <p>Microsoft Dynamics ERP, Microsoft Dynamics CRM </p>
@@ -117,7 +118,7 @@ revolutiontechnologies, revtech, rev tech" />
                 </div>
                 <div class="view view-seventh">
                     <a href="{{ asset('images/g2.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                        <img src="{{ asset('images/g2-.jpg')}}" />
+                        <img src="{{ asset('images/365a.png')}}" />
                         <div class="mask">
                             <h2>Productivity</h2>
                             <p>Microsoft Office, Microsoft Office 365. </p>
@@ -126,7 +127,7 @@ revolutiontechnologies, revtech, rev tech" />
                 </div>
                 <div class="view view-seventh">
                     <a href="{{ asset('images/g3.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                        <img src="{{ asset('images/g3-.jpg')}}" />
+                        <img src="{{ asset('images/sp2.png')}}" />
                         <div class="mask">
                             <h2>Collaboration</h2>
                             <p>Sharepoint Server, Sharepoint Online, Microsoft office live meeting. </p>
@@ -134,8 +135,8 @@ revolutiontechnologies, revtech, rev tech" />
                     </a>
                 </div>
                 <div class="view view-seventh">
-                    <a href="{{ asset('images/g4.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                        <img src="{{ asset('images/g4-.jpg')}}" />
+                    <a href="{{ asset('images/ex.jpg')}}" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                        <img src="{{ asset('images/rsz_11rsz_ex.jpg')}}" />
                         <div class="mask">
                             <h2>Communications</h2>
                             <p>Exchange server, Microsoft office communications Server, Exchange online. </p>

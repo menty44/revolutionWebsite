@@ -7,6 +7,8 @@ author URL: http://blaqueyard.com
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <link rel="icon" href="{{ asset('images/log.png')}}" >
     <title>REVOLUTION TECHNOLOGIES | SERVICES</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -70,7 +72,7 @@ revolutiontechnologies, revtech, rev tech" />
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <h1><a class="navbar-brand" href="index.html">Executive</a></h1>
+                <h1><a class="navbar-brand" href="{{url('/')}}"> <img src="{{ asset('images/log.png')}}" class="img-responsive" alt=""/></a></h1>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
@@ -204,8 +206,8 @@ revolutiontechnologies, revtech, rev tech" />
                             </div>
                         </div>
                         <div class="col-xs-8 agileits_choose_right">
-                            <h4>turpis tincidunt</h4>
-                            <p>Duis lobortis in ex sed cursus. Etiam ac risus at ex blandit placerat id ac augue.</p>
+                            <h4>Software maintenance</h4>
+                            <p>(fixing defects and creating new features) and support, 24/7 help desk services.</p>
                         </div>
                         <div class="clearfix"> </div>
                     </div>
@@ -216,8 +218,8 @@ revolutiontechnologies, revtech, rev tech" />
                             </div>
                         </div>
                         <div class="col-xs-8 agileits_choose_right">
-                            <h4>Etiam ac risus</h4>
-                            <p>Duis lobortis in ex sed cursus. Etiam ac risus at ex blandit placerat id ac augue.</p>
+                            <h4>IT services</h4>
+                            <p>Infrastructure services (network and server management) and data center management.</p>
                         </div>
                         <div class="clearfix"> </div>
                     </div>
@@ -230,8 +232,8 @@ revolutiontechnologies, revtech, rev tech" />
                             </div>
                         </div>
                         <div class="col-xs-8 agileits_choose_right">
-                            <h4>lobortis in ex </h4>
-                            <p>Duis lobortis in ex sed cursus. Etiam ac risus at ex blandit placerat id ac augue.</p>
+                            <h4>Full lifecycle testing </h4>
+                            <p>Functional, performance, automated, localization, mobile and acceptance testing.</p>
                         </div>
                         <div class="clearfix"> </div>
                     </div>
@@ -242,8 +244,8 @@ revolutiontechnologies, revtech, rev tech" />
                             </div>
                         </div>
                         <div class="col-xs-8 agileits_choose_right">
-                            <h4>placerat augue </h4>
-                            <p>Duis lobortis in ex sed cursus. Etiam ac risus at ex blandit placerat id ac augue.</p>
+                            <h4>Platform-based solution</h4>
+                            <p> business intelligence, CRM, ECM, ERP, e-Commerce, portals, security intelligence and IT service management.</p>
                         </div>
                         <div class="clearfix"> </div>
                     </div>

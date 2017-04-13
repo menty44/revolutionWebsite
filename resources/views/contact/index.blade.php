@@ -7,6 +7,7 @@ email: fred.oluoch@blaqueyard.com
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="{{ asset('images/log.png')}}" >
     <title>REVOLUTION TECHNOLOGIES | CONTACT</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -71,7 +72,7 @@ revolutiontechnologies, revtech, rev tech" />
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <h1><a class="navbar-brand" href="index.html">Executive</a></h1>
+                <h1><a class="navbar-brand" href="{{url('/')}}"> <img src="{{ asset('images/log.png')}}" class="img-responsive" alt=""/></a></h1>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
@@ -99,8 +100,8 @@ revolutiontechnologies, revtech, rev tech" />
 <!-- contact -->
 <div class="contact">
     <div class="container">
-        <h2 class="w3ls_head">Contact Us</h2>
-        <p class="w3layouts_para">Feel free to write to us. Request for a quote or enquire about our products and services or just say JAMBO to us. You are welcomed.</p>
+        <h2 class="w3ls_head">Quick Contact</h2>
+        <p class="w3layouts_para">To get your project underway, simply contact us and an expert will get in touch with you as soon as possible. You are welcomed.</p>
         <div class="contact-right-w3-agile">
             <p name="enq" id="contact_form" method="post" action="email/" onsubmit="return validation();">
 

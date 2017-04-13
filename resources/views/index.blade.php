@@ -8,6 +8,7 @@ email: fred.oluoch@blaqueyard.com
 <html lang="en">
 <head>
     <title>REVOLUTION TECHNOLOGIES | HOME</title>
+    <link rel="icon" href="{{ asset('images/log.png')}}" >
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -73,7 +74,7 @@ revolutiontechnologies, revtech, rev tech" />
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <h1><a class="navbar-brand" href="{{url('/')}}"> <img src="{{ asset('images/Revolution-technologies.png')}}" class="img-responsive" alt=""/></a></h1>
+                <h1><a class="navbar-brand" href="{{url('/')}}"> <img src="{{ asset('images/log.png')}}" class="img-responsive" alt=""/></a></h1>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
@@ -255,8 +256,8 @@ revolutiontechnologies, revtech, rev tech" />
                             <div class="de_testi">
                                 <div class="quotes"><img src="{{ asset('images/team1.jpg')}}" alt=""></div>
                                 <div class="de_testi_by">
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                                    <a href="#">Michael </a>, Customer
+                                    <p>Revolution Team offered me a solution in a professional way, i'd recommended anyone to work with them..</p>
+                                    <a href="#">Maria </a>, Customer
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
@@ -265,7 +266,7 @@ revolutiontechnologies, revtech, rev tech" />
                             <div class="de_testi">
                                 <div class="quotes"><img src="{{ asset('images/team2.jpg')}}" alt=""></div>
                                 <div class="de_testi_by">
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                                    <p>  They deployed my solution on the cloud and I haven't gotten any issue since then..</p>
                                     <a href="#">John </a>, Customer
                                 </div>
                                 <div class="clearfix"></div>
@@ -273,54 +274,54 @@ revolutiontechnologies, revtech, rev tech" />
                         </div>
                     </div>
                 </div>
-                <div class="item-owl">
-                    <div class="customer-say">
-                        <div class="col-md-6 customer-grid">
-                            <div class="de_testi">
-                                <div class="quotes"><img src="{{ asset('images/team3.jpg')}}" alt=""></div>
-                                <div class="de_testi_by">
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                                    <a href="#">Michael </a>, Customer
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 customer-grid">
-                            <div class="de_testi">
-                                <div class="quotes"><img src="{{ asset('images/team4.jpg')}}" alt=""></div>
-                                <div class="de_testi_by">
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                                    <a href="#">John </a>, Customer
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-owl">
-                    <div class="customer-say">
-                        <div class="col-md-6 customer-grid">
-                            <div class="de_testi">
-                                <div class="quotes"><img src="{{ asset('images/team4.jpg')}}" alt=""></div>
-                                <div class="de_testi_by">
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                                    <a href="#">Michael </a>, Customer
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 customer-grid">
-                            <div class="de_testi">
-                                <div class="quotes"><img src="{{ asset('images/team1.jpg')}}" alt=""></div>
-                                <div class="de_testi_by">
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                                    <a href="#">John </a>, Customer
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {{--<div class="item-owl">--}}
+                    {{--<div class="customer-say">--}}
+                        {{--<div class="col-md-6 customer-grid">--}}
+                            {{--<div class="de_testi">--}}
+                                {{--<div class="quotes"><img src="{{ asset('images/team3.jpg')}}" alt=""></div>--}}
+                                {{--<div class="de_testi_by">--}}
+                                    {{--<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>--}}
+                                    {{--<a href="#">Michael </a>, Customer--}}
+                                {{--</div>--}}
+                                {{--<div class="clearfix"></div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-md-6 customer-grid">--}}
+                            {{--<div class="de_testi">--}}
+                                {{--<div class="quotes"><img src="{{ asset('images/team4.jpg')}}" alt=""></div>--}}
+                                {{--<div class="de_testi_by">--}}
+                                    {{--<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>--}}
+                                    {{--<a href="#">John </a>, Customer--}}
+                                {{--</div>--}}
+                                {{--<div class="clearfix"></div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="item-owl">--}}
+                    {{--<div class="customer-say">--}}
+                        {{--<div class="col-md-6 customer-grid">--}}
+                            {{--<div class="de_testi">--}}
+                                {{--<div class="quotes"><img src="{{ asset('images/team4.jpg')}}" alt=""></div>--}}
+                                {{--<div class="de_testi_by">--}}
+                                    {{--<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>--}}
+                                    {{--<a href="#">Michael </a>, Customer--}}
+                                {{--</div>--}}
+                                {{--<div class="clearfix"></div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-md-6 customer-grid">--}}
+                            {{--<div class="de_testi">--}}
+                                {{--<div class="quotes"><img src="{{ asset('images/team1.jpg')}}" alt=""></div>--}}
+                                {{--<div class="de_testi_by">--}}
+                                    {{--<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>--}}
+                                    {{--<a href="#">John </a>, Customer--}}
+                                {{--</div>--}}
+                                {{--<div class="clearfix"></div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
             </div>
         </div>
         <!--//screen-gallery-->
@@ -328,17 +329,23 @@ revolutiontechnologies, revtech, rev tech" />
 </div>
 <!--//client-->
 <!-- what -->
-<div class="what-w3ls">
-    <div class="container">
+<br class="what-w3ls">
+    <p class="container">
         <h3 class="w3ls_head">Work Process</h3>
-        <p class="w3agile">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
-            corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+        <p class="w3agile">Since as early as 2008, Scrum has increasingly become our methodology of choice for the vast majority of projects. We now heavily favor Scrum to successfully cope with loosely defined or constantly changing requirements, or critical time to market demands.
+
+            Over the years, we have accumulated deep Scrum expertise and take pride in employing some of the best Scrum Masters out there who not only effectively lead projects but also constantly contribute to the company’s body of Scrum knowledge.
+
+            We also have worked hard to hone our process to specifically address the challenges of outsourced development — and it has paid off tremendously when delivering products for some of the world’s most recognizable brands.</p></p></p></br>
+    </p>
+        <h3 class="w3ls_head">Scrum at a Glance</h3>
+        <h1>Scrum is an iterative and incremental software development methodology designed to build products faster. Scrum uses short timeboxed development cycles (called sprints), with each sprint resulting in potentially shippable functionality delivered.</h1>
         <div class="what-grids">
             <div class="col-md-6 what-grid">
                 <img src="{{ asset('images/images.png')}}" class="img-responsive" alt=""/>
                 <div class="what-agile-info">
-                    <h4>Consectetur</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut dignissimos ea est, impedit incidunt, laboriosam consectetur adipisicing elit. Ab aut dignissimos ea est</p>
+                    <h4>Experience</h4>
+                    <p>Experience of nearly seventeen years working with a wide cross section of sectors in a vast range of technologies.</p>
                 </div>
             </div>
             <div class="col-md-6 what-grid1">
@@ -347,8 +354,8 @@ revolutiontechnologies, revtech, rev tech" />
                         <i class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></i>
                     </div>
                     <div class="what-right">
-                        <h4>Adipisicing</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut dignissimos ea est, impedit incidunt, laboriosam consectetur adipisicing elit. Ab aut dignissimos ea est</p>
+                        <h4>Transparency</h4>
+                        <p>Our experts walk you through each step of solution development</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -357,8 +364,8 @@ revolutiontechnologies, revtech, rev tech" />
                         <i class="glyphicon glyphicon-flash" aria-hidden="true"></i>
                     </div>
                     <div class="what-right">
-                        <h4>Dignissimos</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut dignissimos ea est, impedit incidunt, laboriosam consectetur adipisicing elit. Ab aut dignissimos ea est</p>
+                        <h4>Trust</h4>
+                        <p>We place the greatest emphasis on being a reliable & trusted partner to our clients</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -367,8 +374,8 @@ revolutiontechnologies, revtech, rev tech" />
                         <i class="glyphicon glyphicon-fire" aria-hidden="true"></i>
                     </div>
                     <div class="what-right">
-                        <h4>Consectetur</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut dignissimos ea est, impedit incidunt, laboriosam consectetur adipisicing elit. Ab aut dignissimos ea est</p>
+                        <h4>Client Focus</h4>
+                        <p>Share feedback and suggestions for strategic improvements. Stay Informed with uninterupted communication via reporting and telecom</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>

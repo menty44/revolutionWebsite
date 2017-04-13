@@ -566,7 +566,7 @@ p.w3agile {
 /*-- //what --*/
 /*-- footer --*/
 .footer {
-    background: url(../images/footer.jpg) no-repeat 0px 0px;
+    background: url(../images/footer1.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1530,7 +1530,7 @@ p.w3layouts_para {
 /*-- //services --*/
 /*-- services-bottom --*/
 .services-bottom {
-    background: url(../images/client.jpg) no-repeat 0px 0px;
+    background: url(../images/net.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;

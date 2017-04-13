@@ -7,7 +7,11 @@ email: fred.oluoch@blaqueyard.com
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <link rel="icon" href="{{ asset('images/log.png')}}" >
     <title>REVOLUTION TECHNOLOGIES | ABOUT</title>
+
+
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -71,7 +75,7 @@ revolutiontechnologies, revtech, rev tech" />
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <h1><a class="navbar-brand" href="index.html">Executive</a></h1>
+                <h1><a class="navbar-brand" href="{{url('/')}}"> <img src="{{ asset('images/log.png')}}" class="img-responsive" alt=""/></a></h1>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
@@ -168,7 +172,7 @@ revolutiontechnologies, revtech, rev tech" />
                                 <div class="quotes"><img src="{{ asset('images/team1.jpg')}}" alt=""></div>
                                 <div class="de_testi_by">
                                     <p> Revolution Team offered me a solution in a professional way, i'd recommended anyone to work with them. </p>
-                                    <a href="#">Michael </a>, MD | SSP Africa, Customer
+                                    <a href="#">Maria </a>, MD | SSP Africa, Customer
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
