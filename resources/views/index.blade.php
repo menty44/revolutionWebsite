@@ -110,7 +110,7 @@ revolutiontechnologies, revtech, rev tech" />
                         <li>
                             <div class="wthree_banner_info_grid">
                                 <h4>TOP NOTCH SOLUTIONS</h4>
-                                <h3>We offer the best solutions in the for your needs.</h3>
+                                <h3>We offer the best solution for your needs.</h3>
                                 {{--<h5>classical Latin</h5>--}}
                             </div>
                         </li>
@@ -131,7 +131,7 @@ revolutiontechnologies, revtech, rev tech" />
                         <li>
                             <div class="wthree_banner_info_grid">
                                 <h4>AGILE</h4>
-                                <h3>We engage our clients throught the n project's lifecycle.</h3>
+                                <h3>We engage our clients throught the project's lifecycle.</h3>
                                 {{--<h5>classical Latin</h5>--}}
                             </div>
                         </li>
