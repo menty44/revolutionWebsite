@@ -229,8 +229,7 @@ revolutiontechnologies, revtech, rev tech" />
 <div class="client">
     <div class="container">
         <h3 class="w3ls_head">Client Says</h3>
-        <p class="w3l">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
-            corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+        <p class="w3l">Here some but a few of the clients remarks regarding our services. They Trust us.</p>
         <!--screen-gallery-->
         <div class="sreen-gallery-cursual">
             <!-- required-js-files-->
